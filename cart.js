@@ -1,7 +1,7 @@
 // افزودن محصول به سبد خرید
 function addToCart(name, price) {
     const product = { name, price };
-    const menuUrl = "https://github.com/parisa70-ai/manu";
+    const menuUrl = "https://github.com/parisa70-ai/menu.git";
   
     // ذخیره محصول در سبد خرید
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
